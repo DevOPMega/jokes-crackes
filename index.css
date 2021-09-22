@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:100%;
+    font-family:Robot;
+}
+body{
+    height:100vh;
+    overflow-y:hidden;
+    --bgColor:rgba(0,0,0,0.09);
+    --color:#222;
+    --h1:2.2rem;
+    --p:1.2rem;
+    --fontP:Gluten,monospace
+}
+img{
+    width:100%;
+    max-width:500px;
+}
+.main{
+    display:block;
+    margin:1.2em auto 0 auto;
+    width:40%;
+    margin-top:1.2em;
+}
+.jokes{
+    width:100%;
+    min-height:100px;
+    border-left: 9px solid gainsboro;  
+    margin:2.9em 0;  
+    background:ghostwhite
+}
+.jokes p{
+    color:var(--color);
+    font-size:var(--p);
+    padding:0.7em 0.8em;
+    line-height: 1.5em;
+    word-spacing: 0.4em;
+    font-family: var(--fontP);
+
+}
+button{
+    float:right;
+    padding:0.4em 0.5em;
+    border:2px solid #222;
+    font-size:0.9rem;
+    transition: .4s
+}
+button:hover{
+    background:#222;
+    color:white
+}
+
+
